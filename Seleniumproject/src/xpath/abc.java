@@ -15,7 +15,7 @@ System.setProperty("webdriver.chrome.driver", "D:\\chromedriver_win32 (1)\\chrom
 		driver.get("https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin");
 		Thread.sleep(1000);
 
-       driver.findElement(By.xpath("//input [@type='email']")).sendKeys("9730562297");
+       driver.findElement(By.xpath("//input [@type='email']")).sendKeys("mm.mohsin313@gmail.com");
 	}
 
 }
