@@ -17,7 +17,6 @@ public class WithoutDDF {
 				WebDriver driver = new ChromeDriver();
 				driver.get("https://kite.zerodha.com/");
 				Thread.sleep(2000);
-				driver.manage().window().maximize();
 		
 				driver.findElement(By.xpath("//input[@type='text']")).sendKeys("OKP335");
 				Thread.sleep(2000);
